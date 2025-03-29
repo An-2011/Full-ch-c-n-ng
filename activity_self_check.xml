@@ -1,0 +1,204 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bài kiểm tra nguy cơ mắc bệnh Gout"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <!-- 1. Thói quen ăn uống -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Thói quen ăn uống"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bạn có thường xuyên ăn các thực phẩm giàu purine (hải sản, thịt đỏ, nội tạng động vật) không?" />
+
+        <RadioGroup
+            android:id="@+id/q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q1_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thường xuyên (3-4 lần/tuần)"/>
+
+            <RadioButton
+                android:id="@+id/q1_sometimes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thỉnh thoảng (1-2 lần/tuần)"/>
+
+            <RadioButton
+                android:id="@+id/q1_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rất ít hoặc không"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bạn có thường xuyên uống bia, rượu hoặc đồ uống có cồn không?" />
+
+        <RadioGroup
+            android:id="@+id/q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q2_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thường xuyên"/>
+
+            <RadioButton
+                android:id="@+id/q2_sometimes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thỉnh thoảng"/>
+
+            <RadioButton
+                android:id="@+id/q2_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Không bao giờ"/>
+        </RadioGroup>
+
+        <!-- 2. Chế độ sinh hoạt -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Chế độ sinh hoạt"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bạn có uống đủ nước hàng ngày không (2-3 lít nước/ngày)?" />
+
+        <RadioGroup
+            android:id="@+id/q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q3_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Không đủ" />
+
+            <RadioButton
+                android:id="@+id/q3_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đủ nước" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bạn có thói quen tập thể dục đều đặn ít nhất 30 phút/ngày không?" />
+
+        <RadioGroup
+            android:id="@+id/q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q4_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Có" />
+
+            <RadioButton
+                android:id="@+id/q4_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Không" />
+        </RadioGroup>
+
+        <!-- 3. Tiền sử gia đình -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Tiền sử gia đình"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bạn có người thân trong gia đình từng mắc bệnh Gout không?" />
+
+        <RadioGroup
+            android:id="@+id/q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q5_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Có" />
+
+            <RadioButton
+                android:id="@+id/q5_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Không" />
+        </RadioGroup>
+
+        <!-- Nút Gửi -->
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gửi kết quả"
+            android:layout_marginTop="20dp" />
+
+        <!-- Kết quả -->
+        <TextView
+            android:id="@+id/result_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:layout_marginTop="20dp"
+            android:text="Kết quả sẽ hiển thị ở đây." />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quay lại"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

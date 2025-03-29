@@ -1,0 +1,339 @@
+[2025-03-26 18:31:58] Request: Array
+(
+    [action] => add
+    [user_id] => 1
+    [id_bac_si] => 3
+    [diem_so] => 5
+    [nhan_xet] => Bác sĩ rất tận tâm!
+)
+
+[2025-03-26 18:32:12] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 3
+)
+
+[2025-03-26 18:32:26] Request: Array
+(
+    [action] => fetch_by_user
+    [user_id] => 1
+)
+
+[2025-03-26 18:32:29] Request: Array
+(
+    [action] => fetch_by_user
+    [user_id] => 1
+)
+
+[2025-03-26 18:32:29] Request: Array
+(
+    [action] => fetch_by_user
+    [user_id] => 1
+)
+
+[2025-03-26 18:32:38] Request: Array
+(
+    [action] => fetch_by_user
+    [user_id] => 1
+)
+
+[2025-03-26 18:32:39] Request: Array
+(
+    [action] => fetch_by_user
+    [user_id] => 1
+)
+
+[2025-03-26 18:32:48] Request: Array
+(
+    [action] => fetch_by_user
+    [user_id] => 1
+)
+
+[2025-03-26 18:32:56] Request: Array
+(
+    [action] => fetch_by_user
+    [user_id] => 1
+)
+
+[2025-03-26 18:38:22] Request: Array
+(
+    [action] => add
+    [user_id] => 1
+    [id_bac_si] => 3
+    [diem_so] => 5
+    [nhan_xet] => Bác sĩ tư vấn rất tốt!
+)
+
+[2025-03-26 18:38:29] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 3
+)
+
+[2025-03-26 18:38:35] Request: Array
+(
+    [action] => fetch_by_user
+    [user_id] => 1
+)
+
+[2025-03-26 18:53:53] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
+[2025-03-26 18:54:11] Request: Array
+(
+    [action] => add
+    [user_id] => 1
+    [id_bac_si] => 1
+    [diem_so] => 3
+    [nhan_xet] => bác sĩ tôt
+)
+
+[2025-03-26 18:54:11] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
+[2025-03-26 18:55:36] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
+[2025-03-26 19:09:56] Request: Array
+(
+    [action] => fetch_by_user
+    [user_id] => 1
+)
+
+[2025-03-26 19:10:07] Request: Array
+(
+    [action] => add
+    [user_id] => 1
+    [id_bac_si] => 1
+    [diem_so] => 3
+    [nhan_xet] => tuyệt vời
+)
+
+[2025-03-26 19:10:07] Request: Array
+(
+    [action] => fetch_by_user
+    [user_id] => 1
+)
+
+[2025-03-26 19:18:31] Request: Array
+(
+    [action] => fetch_by_user
+    [user_id] => 1
+)
+
+[2025-03-26 19:19:01] Request: Array
+(
+    [action] => fetch_by_user
+    [user_id] => 1
+)
+
+[2025-03-26 19:20:26] Request: Array
+(
+    [action] => fetch_by_user
+    [user_id] => 1
+)
+
+[2025-03-26 19:23:19] Request: Array
+(
+    [action] => fetch_by_user
+    [user_id] => 1
+)
+
+[2025-03-26 19:23:51] Request: Array
+(
+    [action] => add
+    [user_id] => 1
+    [id_bac_si] => 1
+    [diem_so] => 3
+    [nhan_xet] => rất giỏi
+)
+
+[2025-03-26 19:23:51] Request: Array
+(
+    [action] => fetch_by_user
+    [user_id] => 1
+)
+
+[2025-03-26 19:42:24] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
+[2025-03-26 19:44:17] Request: Array
+(
+    [action] => fetch_all
+)
+
+[2025-03-26 21:42:16] Request: Array
+(
+    [action] => fetch_all
+)
+
+[2025-03-26 21:42:23] Request: Array
+(
+    [action] => fetch_all
+)
+
+[2025-03-27 10:32:21] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 5
+)
+
+[2025-03-27 10:32:50] Request: Array
+(
+    [action] => add
+    [user_id] => 1
+    [id_bac_si] => 5
+    [diem_so] => 5
+    [nhan_xet] => bác sĩ giỏi , tận tình
+)
+
+[2025-03-27 10:32:50] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 5
+)
+
+[2025-03-27 11:16:40] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
+[2025-03-28 10:43:50] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
+[2025-03-28 11:46:45] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
+[2025-03-28 13:00:17] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
+[2025-03-28 13:42:58] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
+[2025-03-28 13:43:01] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
+[2025-03-28 13:48:28] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
+[2025-03-28 13:48:44] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
+[2025-03-28 18:39:14] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
+[2025-03-28 18:42:48] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
+[2025-03-28 18:48:02] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
+[2025-03-28 18:52:05] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
+[2025-03-28 18:56:01] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
+[2025-03-28 18:57:53] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
+[2025-03-28 19:02:06] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
+[2025-03-28 19:03:51] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
+[2025-03-28 19:03:57] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
+[2025-03-28 19:04:01] Request: Array
+(
+    [action] => add
+    [user_id] => 1
+    [id_bac_si] => 1
+    [diem_so] => 1
+    [nhan_xet] => 
+)
+
+[2025-03-28 19:04:02] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
+[2025-03-28 19:04:07] Request: Array
+(
+    [action] => add
+    [user_id] => 1
+    [id_bac_si] => 1
+    [diem_so] => 3
+    [nhan_xet] => 
+)
+
+[2025-03-28 19:04:07] Request: Array
+(
+    [action] => fetch_by_doctor
+    [id_bac_si] => 1
+)
+
